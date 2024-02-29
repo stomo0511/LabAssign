@@ -20,8 +20,6 @@ for student in students:
     print(f"ID {student.student_id}, Name: {student.name}, GPA: {student.gpa}, Spec_P: {student.spec_p}, TOEIC: {student.toeic}, Preferences: {student.preferences}")
 print()
 
-exit()
-
 # 正当な不満のない研究室割り当てアルゴリズム
 def allocate_students(students, labs):
     n = len(students)
