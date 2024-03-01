@@ -10,6 +10,13 @@ class Labo:
         self.l_limit = int(l_limit)
         self.u_limit = int(u_limit)
         self.assign_count = 0  # 配属数を0で初期化
+        self.assigned_students = [] # 配属された学生のリスト
+
+    def print_assigned_students(self):
+        sorted_students = sorted(self.assigned_students, key=lambda x: x.student_id)  # student_idでソート
+        print(f"Assigned Students in {self.lab_name}:")
+        for student in sorted_students:
+            print(student.student_id, student.name)
 
 # 研究室データをCSVファイルから読み込む
 #  データ形式：研究室名（文字列）, 配属下限, 配属上限

@@ -1,4 +1,5 @@
 import csv
+import re
 
 ###############################################################
 # 学生クラス
@@ -26,11 +27,13 @@ class Student:
 #  データ形式：学籍番号, 氏名, GPA値, 専門科目加重平均点, TOEIC値, 希望リスト
 def read_students_from_csv(file_path, num_of_labs):
     students = []
-    with open(file_path, mode='r', newline='', encoding='utf-8') as file:
-        reader = csv.reader(file)
+    with open(file_path, mode='r', newline='', encoding='utf-16') as file:
+        reader = csv.reader(file, delimiter='\t')
         next(reader)  # ヘッダー行をスキップ
         for row in reader:
-            student = Student(*row)
+            student_id, name, gpa, spec_p, toeic, preferences_str = row
+            preferences = re.findall(r'\{([^}]*)\}', preferences_str)
+            student = Student(student_id, name, float(gpa), float(spec_p), int(toeic), preferences)
             student.validate_preferences(num_of_labs) # 希望リストの長さを検証
             students.append(student)
     return students

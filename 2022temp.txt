@@ -1,0 +1,149 @@
+Number of labs =  15
+Number of students =  49
+
+GPA, 専門平均, TOEICがすべて同じ学生のリストは次のとおりです：
+なし
+0 T19CS008 磯部　大輔 茅・朱研究室 1
+0 T19CS051 宮澤　侑吾 安藤研究室 1
+0 T19CS059 中野　良春 鍋島・盧研究室 1
+0 T19CS026 小林　立弥 安藤研究室 2
+0 T19CS040 土肥　歩奈 茅・朱研究室 2
+0 T19CS002 青柳　笑 安藤研究室 3
+0 T19CS023 小泉　冴起 鍋島・盧研究室 2
+0 T19CS007 石原　直哉 豊浦研究室 1
+0 T19CS020 北原　千智 豊浦研究室 2
+0 T19CS015 笠島　陽菜 服部研究室 1
+0 T19CS027 佐直　祐弥 服部研究室 2
+0 T19CS054 望月　康平 豊浦研究室 3
+0 T19CS037 TAN ZU SHENG 郷研究室 1
+0 T19CS058 高山　聖史 小俣研究室 1
+0 T19CS019 鴨狩　伸哉 茅・朱研究室 3
+0 T19CS025 小林　聡輝 木下研究室 1
+0 T19CS013 大島　幹太 小俣研究室 2
+0 T19CS062 藤澤　俊介 茅・朱研究室 4
+0 T19CS030 澤嵜　涼介 郷研究室 2
+0 T19CS039 DENG WENXIN 郷研究室 3
+0 T19CS036 田村　駿 大渕・古屋研究室 1
+0 T19CS061 平野　秀典 福本・李研究室 1
+0 T19CS050 三森　龍生 高橋研究室 1
+0 T19CS031 潮田　拓海 小俣研究室 3
+0 T19CS011 上野　星南 木下研究室 2
+0 T19CS012 YUAN YINGXUAN 福本・李研究室 2
+0 T19CS005 有泉　千太 小澤研究室 1
+0 T19CS021 郷間　豊人 福本・李研究室 3
+0 T19CS033 菅原　孝太 鍋島・盧研究室 3
+0 T19CS041 中村　謙士 服部研究室 3
+0 T19CS048 細田　颯 木下研究室 3
+0 T19CS004 穴山　智也 鍋島・盧研究室 4
+0 T19CS055 望月　翔悟 岩沼・吉川研究室 1
+0 T19CS044 花形　駿太 小澤研究室 2
+0 T19CS009 一瀬　壮摩 小澤研究室 3
+0 T19CS057 岡本　啓太郎 大渕・古屋研究室 2
+0 T19CS045 早見　拓斗 大渕・古屋研究室 3
+0 T19CS010 伊藤　耀 渡辺研究室 1
+0 T19CS035 滝澤　大樹 大渕・古屋研究室 4
+0 T19CS053 宮下　竜一 渡辺研究室 2
+0 T19CS001 相川　大和 渡辺研究室 3
+0 T19CS042 西島　紘也 岩沼・吉川研究室 2
+0 T19CS016 片野坂　亮 高橋研究室 2
+0 T19CS014 小川　裕大 鈴木研究室 1
+0 T19CS018 神尾　祐輔 高橋研究室 3
+0 T19CS032 下山　弘晃 鈴木研究室 2
+0 T19CS034 鈴木　眞直 鈴木研究室 3
+0 T19CS060 野口　隼杜 岩沼・吉川研究室 3
+0 T19CS006 石川　拓海 岩沼・吉川研究室 4
+
+Lab 安藤研究室: Assigned 3 students.
+Assigned Students in 安藤研究室:
+T19CS002 青柳　笑
+T19CS026 小林　立弥
+T19CS051 宮澤　侑吾
+
+Lab 岩沼・吉川研究室: Assigned 4 students.
+Assigned Students in 岩沼・吉川研究室:
+T19CS006 石川　拓海
+T19CS042 西島　紘也
+T19CS055 望月　翔悟
+T19CS060 野口　隼杜
+
+Lab 大渕・古屋研究室: Assigned 4 students.
+Assigned Students in 大渕・古屋研究室:
+T19CS035 滝澤　大樹
+T19CS036 田村　駿
+T19CS045 早見　拓斗
+T19CS057 岡本　啓太郎
+
+Lab 小澤研究室: Assigned 3 students.
+Assigned Students in 小澤研究室:
+T19CS005 有泉　千太
+T19CS009 一瀬　壮摩
+T19CS044 花形　駿太
+
+Lab 小俣研究室: Assigned 3 students.
+Assigned Students in 小俣研究室:
+T19CS013 大島　幹太
+T19CS031 潮田　拓海
+T19CS058 高山　聖史
+
+Lab 木下研究室: Assigned 3 students.
+Assigned Students in 木下研究室:
+T19CS011 上野　星南
+T19CS025 小林　聡輝
+T19CS048 細田　颯
+
+Lab 郷研究室: Assigned 3 students.
+Assigned Students in 郷研究室:
+T19CS030 澤嵜　涼介
+T19CS037 TAN ZU SHENG
+T19CS039 DENG WENXIN
+
+Lab 鈴木研究室: Assigned 3 students.
+Assigned Students in 鈴木研究室:
+T19CS014 小川　裕大
+T19CS032 下山　弘晃
+T19CS034 鈴木　眞直
+
+Lab 高橋研究室: Assigned 3 students.
+Assigned Students in 高橋研究室:
+T19CS016 片野坂　亮
+T19CS018 神尾　祐輔
+T19CS050 三森　龍生
+
+Lab 豊浦研究室: Assigned 3 students.
+Assigned Students in 豊浦研究室:
+T19CS007 石原　直哉
+T19CS020 北原　千智
+T19CS054 望月　康平
+
+Lab 鍋島・盧研究室: Assigned 4 students.
+Assigned Students in 鍋島・盧研究室:
+T19CS004 穴山　智也
+T19CS023 小泉　冴起
+T19CS033 菅原　孝太
+T19CS059 中野　良春
+
+Lab 服部研究室: Assigned 3 students.
+Assigned Students in 服部研究室:
+T19CS015 笠島　陽菜
+T19CS027 佐直　祐弥
+T19CS041 中村　謙士
+
+Lab 福本・李研究室: Assigned 3 students.
+Assigned Students in 福本・李研究室:
+T19CS012 YUAN YINGXUAN
+T19CS021 郷間　豊人
+T19CS061 平野　秀典
+
+Lab 茅・朱研究室: Assigned 4 students.
+Assigned Students in 茅・朱研究室:
+T19CS008 磯部　大輔
+T19CS019 鴨狩　伸哉
+T19CS040 土肥　歩奈
+T19CS062 藤澤　俊介
+
+Lab 渡辺研究室: Assigned 3 students.
+Assigned Students in 渡辺研究室:
+T19CS001 相川　大和
+T19CS010 伊藤　耀
+T19CS053 宮下　竜一
+

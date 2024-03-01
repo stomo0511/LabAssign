@@ -1,0 +1,144 @@
+Number of labs =  15
+Number of students =  46
+
+GPA, 専門平均, TOEICがすべて同じ学生のリストは次のとおりです：
+なし
+
+12 T20CS014 久保　杏澄 安藤研究室 1
+12 T20CS031 寺田　和仙 豊浦研究室 1
+12 T20CS006 大石　拓哉 茅・朱研究室 1
+12 T20CS057 倉知　慎太郎 郷研究室 1
+12 T20CS047 山口　虹大 安藤研究室 2
+12 T20CS041 藤巻　一穂 豊浦研究室 2
+12 T20CS034 成澤　楽人 安藤研究室 3
+11 T20CS013 唐亀　健大 豊浦研究室 3
+10 T20CS050 YU JUN WEI 茅・朱研究室 2
+10 T20CS045 両角　有真 小澤研究室 1
+10 T20CS030 塚本　英樹 福本・李研究室 1
+10 T20CS002 池田　佳介 小俣研究室 1
+10 T20CS012 桂　献一郎 鍋島研究室 1
+10 T20CS038 馬場　麗央 高橋研究室 1
+10 T20CS033 名幸　大輔 鍋島研究室 2
+10 T20CS007 大坪　丈流 茅・朱研究室 3
+10 T20CS003 石川　颯大 木下研究室 1
+10 T20CS040 林田　和真 大渕・古屋研究室 1
+10 T20CS027 山本　優里 鈴木研究室 1
+10 T20CS039 林　優佑 小俣研究室 2
+10 T20CS021 佐野　一騎 茅・朱研究室 4
+9 T20CS011 勝又　梨玖 小俣研究室 3
+8 T20CS020 佐藤　遼 服部研究室 1
+8 T20CS025 田口　凌 木下研究室 2
+8 T20CS035 西端　隆 郷研究室 2
+8 T20CS023 清水　亮佑 服部研究室 2
+8 T20CS009 長田　朋久 郷研究室 3
+7 T20CS052 渡邉　大樹 木下研究室 3
+6 T20CS055 渡利　康生 鈴木研究室 2
+6 T20CS036 根本　浩暉 大渕・古屋研究室 2
+6 T20CS005 ENEBISH KHOSBAYAR 福本・李研究室 2
+6 T20CS015 久保田　樹 小澤研究室 2
+6 T20CS010 小田　修也 岩沼・吉川研究室 1
+6 T20CS001 浅沼　毅 福本・李研究室 3
+6 T20CS051 渡邊　薪之助 福本・李研究室 4
+5 T20CS044 望月　幹太 大渕・古屋研究室 3
+5 T20CS016 河野　太一 小澤研究室 3
+5 T20CS026 竹内　佑香 小澤研究室 4
+4 T20CS058 鈴木　勇登 渡辺研究室 1
+4 T20CS046 八巻　毅留 岩沼・吉川研究室 2
+4 T20CS019 佐藤　憲人 服部研究室 3
+3 T20CS053 渡邊　響 鍋島研究室 3
+2 T20CS043 村松　朋哉 岩沼・吉川研究室 3
+2 T20CS004 石本　寿弥 大渕・古屋研究室 4
+1 T20CS028 竹鼻　祥汰 鈴木研究室 3
+0 T20CS060 村山　英慈 渡辺研究室 2
+
+Lab 安藤研究室: Assigned 3 students.
+Assigned Students in 安藤研究室:
+T20CS014 久保　杏澄
+T20CS034 成澤　楽人
+T20CS047 山口　虹大
+
+Lab 岩沼・吉川研究室: Assigned 3 students.
+Assigned Students in 岩沼・吉川研究室:
+T20CS010 小田　修也
+T20CS043 村松　朋哉
+T20CS046 八巻　毅留
+
+Lab 大渕・古屋研究室: Assigned 4 students.
+Assigned Students in 大渕・古屋研究室:
+T20CS004 石本　寿弥
+T20CS036 根本　浩暉
+T20CS040 林田　和真
+T20CS044 望月　幹太
+
+Lab 小澤研究室: Assigned 4 students.
+Assigned Students in 小澤研究室:
+T20CS015 久保田　樹
+T20CS016 河野　太一
+T20CS026 竹内　佑香
+T20CS045 両角　有真
+
+Lab 小俣研究室: Assigned 3 students.
+Assigned Students in 小俣研究室:
+T20CS002 池田　佳介
+T20CS011 勝又　梨玖
+T20CS039 林　優佑
+
+Lab 木下研究室: Assigned 3 students.
+Assigned Students in 木下研究室:
+T20CS003 石川　颯大
+T20CS025 田口　凌
+T20CS052 渡邉　大樹
+
+Lab 郷研究室: Assigned 3 students.
+Assigned Students in 郷研究室:
+T20CS009 長田　朋久
+T20CS035 西端　隆
+T20CS057 倉知　慎太郎
+
+Lab 鈴木研究室: Assigned 3 students.
+Assigned Students in 鈴木研究室:
+T20CS027 山本　優里
+T20CS028 竹鼻　祥汰
+T20CS055 渡利　康生
+
+Lab 高橋研究室: Assigned 1 students.
+Assigned Students in 高橋研究室:
+T20CS038 馬場　麗央
+
+Lab 豊浦研究室: Assigned 3 students.
+Assigned Students in 豊浦研究室:
+T20CS013 唐亀　健大
+T20CS031 寺田　和仙
+T20CS041 藤巻　一穂
+
+Lab 鍋島研究室: Assigned 3 students.
+Assigned Students in 鍋島研究室:
+T20CS012 桂　献一郎
+T20CS033 名幸　大輔
+T20CS053 渡邊　響
+
+Lab 服部研究室: Assigned 3 students.
+Assigned Students in 服部研究室:
+T20CS019 佐藤　憲人
+T20CS020 佐藤　遼
+T20CS023 清水　亮佑
+
+Lab 福本・李研究室: Assigned 4 students.
+Assigned Students in 福本・李研究室:
+T20CS001 浅沼　毅
+T20CS005 ENEBISH KHOSBAYAR
+T20CS030 塚本　英樹
+T20CS051 渡邊　薪之助
+
+Lab 茅・朱研究室: Assigned 4 students.
+Assigned Students in 茅・朱研究室:
+T20CS006 大石　拓哉
+T20CS007 大坪　丈流
+T20CS021 佐野　一騎
+T20CS050 YU JUN WEI
+
+Lab 渡辺研究室: Assigned 2 students.
+Assigned Students in 渡辺研究室:
+T20CS058 鈴木　勇登
+T20CS060 村山　英慈
+
