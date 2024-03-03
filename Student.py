@@ -12,13 +12,14 @@ class Student:
         if int(toeic) < 0:
             raise ValueError("TOEIC score should be greater than zero.")
         
-        self.student_id = student_id # 学籍番号
-        self.name = name # 氏名
-        self.gpa = float(gpa) # GPA値
-        self.spec_p = float(spec_p) # 専門科目加重平均点
-        self.toeic = int(toeic) # TOEIC値
+        self.student_id = student_id   # 学籍番号
+        self.name = name               # 氏名
+        self.gpa = float(gpa)          # GPA値
+        self.spec_p = float(spec_p)    # 専門科目加重平均点
+        self.toeic = int(toeic)        # TOEIC値
         self.preferences = preferences # 研究室の希望リスト
 
+    # 希望リストの長さを検証
     def validate_preferences(self, num_of_labs):
         if len(self.preferences) != num_of_labs:
             raise ValueError("The length of preferences must be equal to the number of labs.")
@@ -27,8 +28,8 @@ class Student:
 #  データ形式：学籍番号, 氏名, GPA値, 専門科目加重平均点, TOEIC値, 希望リスト
 def read_students_from_csv(file_path, num_of_labs):
     students = []
-    with open(file_path, mode='r', newline='', encoding='utf-16') as file:
-        reader = csv.reader(file, delimiter='\t')
+    with open(file_path, mode='r', newline='', encoding='utf-8-sig') as file:
+        reader = csv.reader(file, delimiter=',')
         next(reader)  # ヘッダー行をスキップ
         for row in reader:
             student_id, name, gpa, spec_p, toeic, preferences_str = row
