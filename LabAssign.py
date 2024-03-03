@@ -1,38 +1,25 @@
 #######################################################
 # 「直行生」の研究室割り当てアルゴリズム（過年度生は手作業で）
 
+import sys
+
+# 研究室クラス読み込み
 from Labo import Labo, read_labs_from_csv
 
-# 研究室データをCSVファイルから読み込む
-labs = read_labs_from_csv('labs2023.csv')
-num_of_labs = len(labs)  # 研究室数
-
-print("Number of labs = ", num_of_labs)
-# for lab in labs:
-#     print(f"Lab Name: {lab.lab_name}, Lower Limit: {lab.l_limit}, Upper Limit: {lab.u_limit}")
-# print()
-
+# 学生クラス読み込み
 from Student import Student, read_students_from_csv
 
-# 学生データをCSVファイルから読み込む
-students = read_students_from_csv('students2023.csv', num_of_labs)
-num_of_students = len(students)  # 学生数
-
-print("Number of students = ", num_of_students)
-# for student in students:
-#     print(f"ID {student.student_id}, Name: {student.name}, GPA: {student.gpa}, Spec_P: {student.spec_p}, TOEIC: {student.toeic}, Preferences: {student.preferences}")
-print()
-
+#######################################################
 # 正当な不満のない研究室割り当てアルゴリズム
 def allocate_students(students, labs):
     n = len(students)
-    c = 1 + n - sum([lab.l_limit for lab in labs])
+    c = 1 + n - sum([lab.l_limit for lab in labs]) # 下限を越えて割り当てる学生の数
     
     # 学生データを gpa, spec_p, toeic の順のキーでソートする
     sorted_students = sorted(students, key=lambda x: (x.gpa, x.spec_p, x.toeic), reverse=True)
 
-    ###################################################################
-    # 同じgpa、spec_p、toeicを持つ学生を抽出する
+    ########################################################
+    # 同じgpa、spec_p、toeicを持つ学生を抽出する（チェック用）
     same_values_students = []
 
     # sorted_studentsをループして、連続する学生が同じgpa、spec_p、toeicを持つかどうかをチェックします
@@ -52,7 +39,7 @@ def allocate_students(students, labs):
     for student in same_values_students:
         print(student.student_id, student.name, student.gpa, student.spec_p, student.toeic)
     print()
-    ###################################################################
+    ########################################################
 
     for student in sorted_students:
         for lab_name in student.preferences:
@@ -60,21 +47,53 @@ def allocate_students(students, labs):
             if lab and lab.assign_count < lab.l_limit:
                 lab.assign_count += 1
                 lab.assigned_students.append(student)
-                print(c, student.student_id, student.name, lab.lab_name, lab.assign_count) # デバッグ用
+                print(f"{c}, {student.student_id}, {student.name}, {lab.lab_name}, {lab.assign_count}") # デバッグ用
                 break
             elif lab and lab.l_limit <= lab.assign_count < lab.u_limit and c > 0:
                 lab.assign_count += 1
                 lab.assigned_students.append(student)
-                print(c, student.student_id, student.name, lab.lab_name, lab.assign_count) # デバッグ用
+                print(f"{c}, {student.student_id}, {student.name}, {lab.lab_name}, {lab.assign_count}") # デバッグ用
                 c -= 1
                 break
+#######################################################
 
-# 学生の配属を実行
-allocate_students(students, labs)
+# main関数
+def main(labs_file, students_file):
 
-print()
-# 結果出力
-for lab in labs:
-    print(f"Lab {lab.lab_name}: Assigned {lab.assign_count} students.")
-    lab.print_assigned_students()
+    # 研究室データをCSVファイルから読み込む
+    labs = read_labs_from_csv(labs_file)
+    num_of_labs = len(labs)  # 研究室数
+
+    print("Number of labs = ", num_of_labs)
+    # for lab in labs:
+    #     print(f"Lab Name: {lab.lab_name}, Lower Limit: {lab.l_limit}, Upper Limit: {lab.u_limit}")
+    # print()
+
+    # 学生データをCSVファイルから読み込む
+    students = read_students_from_csv(students_file, num_of_labs)
+    num_of_students = len(students)  # 学生数
+
+    print("Number of students = ", num_of_students)
+    # for student in students:
+    #     print(f"ID {student.student_id}, Name: {student.name}, GPA: {student.gpa}, Spec_P: {student.spec_p}, TOEIC: {student.toeic}, Preferences: {student.preferences}")
     print()
+
+    # 学生の配属を実行
+    allocate_students(students, labs)
+    print()
+
+    # 結果出力
+    for lab in labs:
+        print(f"Lab {lab.lab_name}: Assigned {lab.assign_count} students.")
+        lab.print_assigned_students()
+        print()
+
+# メイン処理の実行
+if __name__ == '__main__':
+    if len(sys.argv) != 3:
+        print("Usage: python LabAssign.py <labs_file> <students_file>")
+        sys.exit()
+
+    labs_file = sys.argv[1]
+    students_file = sys.argv[2]
+    main(labs_file, students_file)
