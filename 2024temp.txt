@@ -1,0 +1,178 @@
+Number of labs =  17
+Number of students =  60
+
+GPA, 専門平均, TOEICがすべて同じ学生のリストは次のとおりです：
+なし
+
+7, T21CS009, 岡室　慶介, 安藤研究室, 1
+7, T21CS059, 渡邊　恵祐, 茅・朱研究室, 1
+7, T21CS041, 飛田　龍一, 鍋島研究室, 1
+7, T21CS031, 田邉　史龍, 郷研究室, 1
+7, T21CS049, 松村　孝宏, 茅・朱研究室, 2
+7, T21CS017, 木納　直弥, 郷研究室, 2
+7, T21CS008, 大谷　優羽, 豊浦研究室, 1
+7, T21CS005, 猪股　風, 安藤研究室, 2
+7, T21CS039, NUR SYAZWANI, 福本研究室, 1
+7, T21CS054, 泰永　新, 安藤研究室, 3
+7, T21CS003, 天野　実結, 木下研究室, 1
+6, T21CS026, 篠原　祐希, 安藤研究室, 4
+6, T21CS043, 廣井　奏, 郷研究室, 3
+6, T21CS001, 相山　翔, 古屋研究室, 1
+6, T21CS030, 武井　英樹, 茅・朱研究室, 3
+5, T21CS057, 弓削　慶太, 郷研究室, 4
+5, T21CS037, 中村　くるみ, 鍋島研究室, 2
+5, T21CS048, 松土　滉太, 小俣研究室, 1
+5, T21CS024, 坂本　悠羽, 渡辺研究室, 1
+5, T21CS035, 永田　彩華, 茅・朱研究室, 4
+4, T21CS025, 佐藤　太一, 茅・朱研究室, 5
+4, T21CS014, 金子　健太, 木下研究室, 2
+4, T21CS029, 末石　旺佑, 古屋研究室, 2
+4, T21CS061, 今川　出雲, 豊浦研究室, 2
+4, T21CS053, 村松　祐汰, 古屋研究室, 3
+4, T21CS051, 三塚　拓真, 鍋島研究室, 3
+4, T21CS046, 堀内　省吾, 豊浦研究室, 3
+3, T21CS050, 丸山　駿人, 古屋研究室, 4
+2, T21CS058, 涌井　明澄, 豊浦研究室, 4
+2, T21CS027, 清水　唯衣, 小澤・鳥谷研究室, 1
+2, T21CS013, 加藤　欽太, 木下研究室, 3
+1, T21CS060, 雨宮　友那, 木下研究室, 4
+0, T21CS038, 中村　心, 鍋島研究室, 4
+0, T21CS045, 保崎　大智, 服部研究室, 1
+0, T21CS032, 出口　竣介, 小俣研究室, 2
+0, T21CS036, 中野　歩, 小俣研究室, 3
+0, T21CS023, 齋藤　夏輝, 高橋研究室, 1
+0, T21CS015, 金子　知樹, 高橋研究室, 2
+0, T21CS002, 青島　新龍, 服部研究室, 2
+0, T21CS047, 松田　龍之介, 福本研究室, 2
+0, T21CS019, 久保田　龍, 鈴木研究室, 1
+0, T21CS011, 加々美　翼, 服部研究室, 3
+0, T21CS020, 熊王　伊吹, 福本研究室, 3
+0, T21CS052, 宮平　凜, 渡辺研究室, 2
+0, T21CS042, 平林　勇人, 小澤・鳥谷研究室, 2
+0, T21CS033, 橡木　健太郎, 渡辺研究室, 3
+0, T21CS018, 草田　晃彦, 小澤・鳥谷研究室, 3
+0, T21CS022, 幸田　怜奈, 小澤・鳥谷研究室, 4
+0, T21CS040, 菱川　智哉, 高橋研究室, 3
+0, T21CS034, 中島　渉太, 岩沼・吉川研究室, 1
+0, T21CS012, 笠原　僚, 李研究室, 1
+0, T21CS028, JEON HYODAM, クップル研究室, 1
+0, T21CS063, 田中　英行, 鈴木研究室, 2
+0, T21CS006, 遠藤　愛永, クップル研究室, 2
+0, T21CS056, 山本　喬介, 李研究室, 2
+0, T21CS055, 矢野　平, 岩沼・吉川研究室, 2
+0, T21CS010, 小野田　龍, 岩沼・吉川研究室, 3
+0, T21CS004, 伊藤　虎太郎, 李研究室, 3
+0, T21CS062, 瀧澤　直也, 鈴木研究室, 3
+0, T21CS064, 渡辺　幸徒, 岩沼・吉川研究室, 4
+
+Lab 安藤研究室: Assigned 4 students.
+Assigned Students in 安藤研究室:
+T21CS005 猪股　風
+T21CS009 岡室　慶介
+T21CS026 篠原　祐希
+T21CS054 泰永　新
+
+Lab 岩沼・吉川研究室: Assigned 4 students.
+Assigned Students in 岩沼・吉川研究室:
+T21CS010 小野田　龍
+T21CS034 中島　渉太
+T21CS055 矢野　平
+T21CS064 渡辺　幸徒
+
+Lab 小澤・鳥谷研究室: Assigned 4 students.
+Assigned Students in 小澤・鳥谷研究室:
+T21CS018 草田　晃彦
+T21CS022 幸田　怜奈
+T21CS027 清水　唯衣
+T21CS042 平林　勇人
+
+Lab 小俣研究室: Assigned 3 students.
+Assigned Students in 小俣研究室:
+T21CS032 出口　竣介
+T21CS036 中野　歩
+T21CS048 松土　滉太
+
+Lab クップル研究室: Assigned 2 students.
+Assigned Students in クップル研究室:
+T21CS006 遠藤　愛永
+T21CS028 JEON HYODAM
+
+Lab 木下研究室: Assigned 4 students.
+Assigned Students in 木下研究室:
+T21CS003 天野　実結
+T21CS013 加藤　欽太
+T21CS014 金子　健太
+T21CS060 雨宮　友那
+
+Lab 郷研究室: Assigned 4 students.
+Assigned Students in 郷研究室:
+T21CS017 木納　直弥
+T21CS031 田邉　史龍
+T21CS043 廣井　奏
+T21CS057 弓削　慶太
+
+Lab 鈴木研究室: Assigned 3 students.
+Assigned Students in 鈴木研究室:
+T21CS019 久保田　龍
+T21CS062 瀧澤　直也
+T21CS063 田中　英行
+
+Lab 高橋研究室: Assigned 3 students.
+Assigned Students in 高橋研究室:
+T21CS015 金子　知樹
+T21CS023 齋藤　夏輝
+T21CS040 菱川　智哉
+
+Lab 豊浦研究室: Assigned 4 students.
+Assigned Students in 豊浦研究室:
+T21CS008 大谷　優羽
+T21CS046 堀内　省吾
+T21CS058 涌井　明澄
+T21CS061 今川　出雲
+
+Lab 鍋島研究室: Assigned 4 students.
+Assigned Students in 鍋島研究室:
+T21CS037 中村　くるみ
+T21CS038 中村　心
+T21CS041 飛田　龍一
+T21CS051 三塚　拓真
+
+Lab 服部研究室: Assigned 3 students.
+Assigned Students in 服部研究室:
+T21CS002 青島　新龍
+T21CS011 加々美　翼
+T21CS045 保崎　大智
+
+Lab 福本研究室: Assigned 3 students.
+Assigned Students in 福本研究室:
+T21CS020 熊王　伊吹
+T21CS039 NUR SYAZWANI
+T21CS047 松田　龍之介
+
+Lab 古屋研究室: Assigned 4 students.
+Assigned Students in 古屋研究室:
+T21CS001 相山　翔
+T21CS029 末石　旺佑
+T21CS050 丸山　駿人
+T21CS053 村松　祐汰
+
+Lab 茅・朱研究室: Assigned 5 students.
+Assigned Students in 茅・朱研究室:
+T21CS025 佐藤　太一
+T21CS030 武井　英樹
+T21CS035 永田　彩華
+T21CS049 松村　孝宏
+T21CS059 渡邊　恵祐
+
+Lab 李研究室: Assigned 3 students.
+Assigned Students in 李研究室:
+T21CS004 伊藤　虎太郎
+T21CS012 笠原　僚
+T21CS056 山本　喬介
+
+Lab 渡辺研究室: Assigned 3 students.
+Assigned Students in 渡辺研究室:
+T21CS024 坂本　悠羽
+T21CS033 橡木　健太郎
+T21CS052 宮平　凜
+

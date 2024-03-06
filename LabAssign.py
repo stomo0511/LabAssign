@@ -52,8 +52,8 @@ def allocate_students(students, labs):
             elif lab and lab.l_limit <= lab.assign_count < lab.u_limit and c > 0:
                 lab.assign_count += 1
                 lab.assigned_students.append(student)
-                print(f"{c}, {student.student_id}, {student.name}, {lab.lab_name}, {lab.assign_count}") # デバッグ用
                 c -= 1
+                print(f"{c}, {student.student_id}, {student.name}, {lab.lab_name}, {lab.assign_count}") # デバッグ用
                 break
 #######################################################
 
